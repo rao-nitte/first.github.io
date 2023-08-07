@@ -16,7 +16,9 @@ head { font-family: 'Times New Roman', Times, serif;
         
 h2, h1{ font-family: 'Times New Roman', Times, serif;
     text-align: center;}
+
     ul, li, ol{ font-family: 'Times New Roman', Times, serif;
-        text-align: center;}
+        text-align: center;
+    align-items: center;}
         
     
