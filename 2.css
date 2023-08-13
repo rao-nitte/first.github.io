@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: chocolate;
+  }
+  
+  p.content {
+    margin: 90px;
+    font-size: 20px;
+  }
+  
+  .car {
+    background: linear-gradient(45deg,#000046,#1cb5e0,#000046,#1cb5e0);
+    width: 1400px;
+    height: 80px;
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+  }
+  
+  .cat {
+    width: 150px;
+    text-align: center;
+    height: auto;
+    display: block;
+    margin-left: 100px;
+  
+  }
+  
+  .A { align-items: center;
+    color: #e8a87c;
+    font-size: 22px;
+    font-style: normal; /* "unset" is not a valid value for font-style */
+  }
+  
+  body { 
+    background: linear-gradient(135deg,#4ac29a,#bdfff3,#4ac29a,#bdfff3);
+  }
+  
+  .bat { text-align: center;
+    margin-top: 25px;
+    font-size: 60px;
+    font-style: normal;
+  }
+  
+  h1 { 
+    color: lightcyan;
+    text-align: center;
+    font-style: normal; /* "unset" is not a valid value for font-style */
+    font-size: 45px;
+  }
+  
+  h2 {
+
+    color: #0238c0;
+    background: linear-gradient(275deg,#ffcc00,white,#ffcc00,white);
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke: black;
+    stroke-width: 5px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  table {
+    margin-left: 10%;
+    margin-right: 45%%;
+    width: 75%;
+    
+  }
+  
+  th,
+  td {
+    background: linear-gradient(-275deg,#fc5021,white);
+    border: 2px solid #ccc;
+    padding: 8px; /* Use a colon ":" instead of an equals "=" */
+    margin-left: 10%;
+    margin-right: 45%;
+  }
+  
+  td {
+    background: linear-gradient(275deg,#e8a87c,white);
+  }
+  
+  ul{
+    list-style: square;
+  }
+  .image {
+   
+    width: 15%;
+    height: 300%;
+    border: 5px solid #fc5021;
+    
+  }
+  ul,ol{
+    margin-left: 45%;
+    margin-right: 100%;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+  }
+
+li {
+    margin-left: 45%;
+    margin-right: 100%;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100;
+    
+    
+}
+footer {
+    background: linear-gradient(275deg,#ff2097,white,#ff2097,white,#ff2097,white);
+
+}
