@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      
+    <section class="job-search">
+        <h2>Search for Jobs</h2>
+        <form action="job-listings.html" method="GET">
+            <input type="text" name="keywords" placeholder="Keywords" class="placeholder">
+            <input type="text" name="location" placeholder="Location" class="placeholder">
+            <select name="category" class="placeholder">
+                <option value="all" class="space">All Categories</option>
+                <option value="it"class="space">Information Technology</option>
+                <option value="finance"class="space">Finance</option>
+                <option value="team"class="space">Team Managment</option>
+                <option value="freelance"class="space">Freelancing</option>
+
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+ 
+
+    <link href="employee.css" rel="stylesheet">
+    <!-- Include meta tags, stylesheets, and title as in the previous example -->
+</head>
+<body>
+    <header>
+        <!-- Include header content as in the previous example -->
+    </header>
+    
+    <section class="registration">
+        <h2>Employee Registration</h2>
+        <form action="process-employee-registration.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="placeholder" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="placeholder" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="placeholder" required>
+            <label for="skills">Skills:</label>
+            <input type="text" id="skills" name="skills" class="placeholder" required>
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" class="placeholder" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Include footer content as in the previous example -->
+    </footer>
+</body>
+</html>

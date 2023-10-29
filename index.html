@@ -1,55 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <head> <div>
-        <h1 class="A">NMAM Intitute of Technology </h1>
-        <h3 class="A">Karkala Taluk, Udupi District, Karnataka, India- 574 110</h3>
-    <img src="logo3.png" class="B"></div> 
-   
-    </head>
+    <title>Skill Market Home</title>
+</head>
 
-    <body>
-        <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="Resource.html">Resource</a>
-            <div class="dropdown">
-              <a href="Department.html" class="dropbtn">Department
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="cs.html">CSE</a>
-                <a href="is.html">ISE</a>
-                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">AIDS</a>
-                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">AIML</a>
-                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">Civil</a>
-                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">Mechanical</a>
-                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">Robotics</a>
-                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">Biotechnology</a>
-                <a href="https://nmamit.nitte.edu.in/department-AI&ML.php">Electronics</a>
-              </div>
+<body>
+    <header>
+        <img src="SkillMarket.png" class="img1">
+        <nav>
+            <div class="sname">
+                <a href="employee-registration.html" onmouseover="increaseFontSize(this)" onmouseout="resetFontSize(this)">Job Seekers</a>
             </div>
-            <a href="Contact.html">Contact</a>
-          </div>
-      
+            <div class="sname">
+                <a href="employer-registration.html" onmouseover="increaseFontSize(this)" onmouseout="resetFontSize(this)">Employers</a>
+            </div>
+        </nav>
+    </header>
     
-        
-<h2><p>About NMAM Institute of Technology</p></h2>
-<img src="nitte.jpg"class="nitte">
+    <section class="job-search">
+        <h2>Welcome to your dream destination to find jobs and hire super skilled people</h2>
+    </section>
+    
+    <!-- Add a section for "Available Jobs" -->
+    <!-- Replace this section with an employer table -->
+<section class="job-search">
+    <h2>Available Jobs</h2>
+    <table id="employer-table" border="1">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Skill Required</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Employer data will be populated here -->
+        </tbody>
+    </table>
+</section>
 
-<h3>Nitte Mahalinga Adyantaya Memorial Institute of Technology(NMAMIT), Nitte, established in 1986 and recognized by the All India Council for Technical Education, New Delhi, has been a constituent college of Nitte (Deemed to be University), Mangaluru,since June 2022. Rank band 101-150 in the National Institutional Ranking Framework (NIRF) 2023 by Ministry of Education, Government of India, the College has been placed under ‘Platinum’ category for having high industry linkages by the AICTE-CII Survey of Industry-Linked Technical Institutes 2020. NMAMIT, the off-campus centre of Nitte DU located at Nitte village, has active collaborations with several international universities and organizations for faculty and student exchanges, research, internships and placements.
 
-The Institute offers UG engineering program in fifteen disciplines; Artificial Intelligence & Machine Learning (AI&ML), Artificial Intelligence & Data Science (AI&DS), Biotechnology (BT), Civil Engineering(CIV), Computer & Communication Engineering (CCE), Computer Science & Engineering(CS),Computer Science (Cyber Security), Computer Science (Full Stack Development), Electrical & Electronics Engineering (E&E), Electronics & Communication Engineering (E&C), Electronics (VLSI Design & Technology), Electronics & Communication Engineering (ACT), Information Science & Engineering (IS) , Mechanical Engineering(MECH) and Robotics & Artificial Intelligence (R&AI ). Out of these programs, seven UG programs i.e., BT, CIV, CS,E&E, E&C, IS and MECH are accredited by NBA, New Delhi under Tier - I category till 30 June 2025. The institute also offers PG program M.Tech. in seven disciplines namely Construction Technology, Computer Science & Engineering,Cyber Security, Electric Vehicle Technology, Machine Design, Structural Engineering and VLSI Design & Embedded Systems as well as MCA program. All the departments have qualified research guides for students interested in taking up research work leading to Ph.D.
-
-NMAMITis located in a vibrant, serene and green campus at Nitte spread over 125 acres and is nestled in the Western Ghats of Southern India on the way to the Kudremukh ranges. The nearest airport is Mangaluru International Airport (45 km). The nearest railway stations are Udupi (40 km) and Mangaluru (50 km). Nitte is 19 km from NH-66 connecting Kochi (Kerala) and Panvel (Mumbai) and 7 km from NH-169 connecting Mangaluru and Solapur (Maharashtra).
-</h3>
-<footer>
-  <div class="social-links">
-  <a href="https://www.facebook.com/NMAMITsince1986/">Facebook</a>
-  <a href="https://twitter.com/nmamitnitte?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
-  <a href="https://www.instagram.com/nmamit_nitte/">Instagram</a>
-  </div>
-  <p>&copy; 2023 NITTE University. All rights reserved.</p>
-  </footer>
-  
-    </body>
+    
+    <!-- Add a section for "Skilled Worksmen" -->
+    <section class="job-search">
+        <h2>Skilled Worksmen</h2>
+        <script src="employee-registration.js"></script>
+        <table id="employee-table" border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Skills</th>
+                    <!-- Add headers for other employee details here -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Employee data will be populated here -->
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="featured-jobs">
+        <h2>Featured Jobs</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Serial No.</th>
+                    <th>Company Name</th>
+                    <th>Designation</th>
+                    <th>Location</th>
+                    <th>Apply</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Apple</td>
+                    <td>Software Engineer</td>
+                    <td>Cupertino, CA</td>
+                    <td><a href="https://www.apple.com" target="_blank"><button>Apply</button></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>IBM</td>
+                    <td>Data Scientist</td>
+                    <td>Armonk, NY</td>
+                    <td><a href="https://www.ibm.com" target="_blank"><button>Apply</button></a></td>
+                </tr>
+                <!-- Add more featured jobs here -->
+            </tbody>
+        </table>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Skill-Market</p>
+    </footer>
+    <script src="employee-registration.js"></script>
+    <script src="employer-registration.js"></script>
+    <script src="index.js"></script>
+ 
+</body>
 </html>

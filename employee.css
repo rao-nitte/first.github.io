@@ -1,0 +1,88 @@
+
+.registration {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color:#664229;
+    color: #e4b182;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.registration h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e4b182;
+}
+
+body {
+    background: linear-gradient(135deg,#664229,#b99976,#d2b48c,#e5d3b3,#987554,#664229);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+.registration label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.registration input[type="text"],
+.registration input[type="email"],
+.registration input[type="password"],
+.registration input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.placeholder{
+    background-color: #f5f5dc;
+    padding: 10px;
+    border:1px solid rgb(87, 21, 21);
+    margin-right: 30%;
+}
+
+button {
+    background-color: #664229;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.registration button:hover {
+    background-color: #555;
+}
+
+.placeholder{
+    background-color: #f5f5dc;
+}
+.job-search,.featured-jobs{
+    background-color:#e4b182;    
+    color:  #664229;
+}

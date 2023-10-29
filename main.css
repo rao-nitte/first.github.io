@@ -1,12 +1,9 @@
-/* Reset some default styles */
 body, h1, h2, p {
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 body {
-        
-        background: linear-gradient(135deg,#8bffb9,#FBD786,#f7797d,rgb(133, 133, 250));
+        background: linear-gradient(135deg,#664229,#b99976,#d2b48c,#e5d3b3,#987554,#664229);
         background-size: 400% 400%;
         animation: athul 15s ease infinite;
         height: 100vh;
@@ -27,22 +24,10 @@ body {
 
 header {
     background-image:linear-gradient(135deg,#dba879,#b37549,#b37549,#dba879,#b37549,#b37549,#dba879);
+    color:  #664229;
     padding: 10px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    animation: rao 15s ease infinite;
-   
-}
-
-@keyframes rao {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }
 
 nav {
@@ -118,6 +103,13 @@ footer {
     transition: font-size 500ms; 
     text-decoration: underline;
     line-height: 1.5;
+    background-color: #664229;
+    align-content: center;
+    border-radius: 5px;
+    margin-left: 45%;
+    width: 50px;
+    text-align: center;
+    align-self: center;
 }
 
 .sname a:hover {
@@ -133,7 +125,13 @@ h1{
     border:1px solid rgb(87, 21, 21);
     margin-right: 30%;
 }
-
-.img1{
-    width: 20%;
+.sname{
+    font-weight: bold;
+    font-size: 1.5em; 
+    transition: font-size 500ms; 
+   
+    line-height: 1.5;
+    background-color: #664229;
+    align-content: center;
+    border-radius: 5px;
 }
